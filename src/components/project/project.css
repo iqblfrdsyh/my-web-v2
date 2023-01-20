@@ -1,0 +1,78 @@
+/* Project*/
+.project {
+  margin-top: 50px;
+  padding: 100px 0;
+}
+
+.project .content {
+  margin-top: 80px;
+}
+
+.project .content img {
+  border: 5px solid black;
+}
+
+/* End */
+/* Carousel */
+
+.carousel img {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.carousel-caption h3 {
+  color: white;
+}
+.carousel-caption p {
+  color: white;
+}
+.carousel-indicators button {
+  background-color: white !important;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .blur {
+    filter: blur(2px);
+  }
+  .hide-text {
+    display: none;
+  }
+  .show-text {
+    display: block !important;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel img {
+    margin: 0 auto;
+    width: 55%;
+    filter: blur(1.2px);
+  }
+  .carousel-item {
+    width: 100% !important;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  .carousel-caption h3 {
+    opacity: 0.6;
+    white-space: wrap !important;
+    color: white;
+  }
+  .carousel-caption p {
+    opacity: 0.6;
+    white-space: wrap !important;
+    color: white;
+  }
+}
+
+/* End */

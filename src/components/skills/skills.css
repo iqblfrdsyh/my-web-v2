@@ -1,0 +1,74 @@
+.skills {
+  margin-top: 20px;
+  padding: 150px 30px;
+}
+
+.skills h3,
+p {
+  color: #272932;
+}
+
+.skills .col-md-5 h5 {
+  color: black;
+}
+
+.skills .content {
+  margin-top: 80px;
+}
+
+.skills .content-progress p {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.skills .progress-bar {
+  background-color: rgb(107, 90, 210);
+}
+
+.accordion-item span {
+  color: rgb(107, 90, 210);
+  font-weight: bold;
+}
+
+.accordion-button {
+  color: #272932;
+  background-color: #f6f2ff !important;
+}
+
+.accordion-body {
+  background-color: transparent;
+}
+
+.accordion-header button {
+  font-size: 20px !important;
+}
+
+.accordion-item {
+  background-color: #f6f2ff !important;
+}
+.accordion-item p {
+  color: black;
+}
+/* End */
+
+/* Icon */
+.bi-braces,
+.bi-server,
+.bi-grid {
+  font-size: 1.6em;
+  margin-right: 10px;
+}
+/* End */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .skills {
+    margin-top: 60px;
+  }
+
+  .skills .content {
+    margin-top: 50px;
+  }
+  .accordion-item button {
+    font-size: 16px !important;
+  }
+}

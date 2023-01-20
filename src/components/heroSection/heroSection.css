@@ -1,0 +1,90 @@
+.jumbotron {
+  margin-top: 100px;
+  height: 80vh;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron h4,
+.jumbotron p {
+  color: rgb(167, 167, 167);
+}
+
+.jumbotron p {
+  font-size: 1.2rem;
+}
+
+.jumbotron .btn {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid black !important;
+}
+
+.jumbotron .btn i {
+  margin-left: 7px;
+}
+
+.jumbotron .btn:hover {
+  background-color: rgb(107, 90, 210);
+  border: 1px solid black;
+  color: #fff;
+}
+
+.jumbotron img {
+  width: 350px;
+  margin-left: 250px;
+  margin-top: -20px;
+  border-radius: 75% 25% 45% 55% / 51% 59% 41% 49%;
+}
+
+.jumbotron ul {
+  display: flex;
+  margin-left: -35px;
+  list-style: none;
+  margin-top: 90px;
+}
+
+.jumbotron ul li {
+  margin-left: 15px;
+  font-size: 1.2rem;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .jumbotron {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+
+  .jumbotron h1 {
+    font-size: 36px !important;
+  }
+
+  .jumbotron h4 {
+    font-size: 20px !important;
+  }
+
+  .jumbotron p {
+    font-size: 1.1rem;
+  }
+
+  .jumbotron img {
+    display: none;
+  }
+
+  .jumbotron ul {
+    position: relative;
+    float: left;
+    bottom: 50px;
+    right: 20px;
+  }
+
+  .jumbotron .medsos {
+    position: absolute;
+    float: left;
+    left: -1px;
+    margin-top: 100px;
+  }
+}

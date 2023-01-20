@@ -1,0 +1,76 @@
+.about {
+  margin-top: 100px;
+  padding: 150px 0;
+}
+.about .content {
+  margin-top: 80px;
+}
+
+.about img {
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+.about .project .point span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about .project {
+  padding: 0 50px;
+}
+
+.about .project .point p {
+  font-size: 12px;
+}
+
+.about .btn {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.about .btn:hover {
+  background-color: slateblue;
+  color: #fff;
+}
+
+.about .bi-download {
+  margin-left: 8px;
+}
+
+.modal-title,
+.modal-body {
+  color: black !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about {
+    padding: 10px;
+  }
+
+  .about img {
+    margin-left: 50px;
+  }
+
+  .about .content {
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+  .about .project {
+    padding: 0 30px;
+  }
+
+  .about p {
+    text-align: center;
+  }
+
+  .about .project .point p {
+    margin-top: 5px;
+  }
+
+  .about .btn {
+    display: flex;
+    margin: 0 auto;
+  }
+}
