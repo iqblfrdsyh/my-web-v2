@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <img class="w-75" src={profile2} alt="" />
                     </div>
                     <div class="col-md-5 offset-1">
-                        <p>
+                        <p style={{ marginTop: "50px" }}>
                             Hi my name is M Iqbal Ferdiansyah I just learned coding in
                             Front End, my achievement is to become Full Stack Developer.
                         </p>
