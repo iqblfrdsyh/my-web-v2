@@ -16,7 +16,7 @@ const AboutMe = () => {
                 <h3 class="title text-center fw-bold">About <span style={{ color: "slateblue" }}>Me</span></h3>
                 <p class="info-title text-center" style={{ opacity: "0.5" }}>My introduction</p>
                 <div class="row justify-content-center content">
-                    <div class="col-md-5" data-aos="fade-right" data-aos-delay="50">
+                    <div class="col-md-5">
                         <img class="w-75" src={profile2} alt="" />
                     </div>
                     <div class="col-md-5 offset-1">
