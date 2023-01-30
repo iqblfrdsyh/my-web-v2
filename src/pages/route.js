@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './home'
+import NotFound from './notFound/notFound'
 import SecretoChat from './secretochat/secretochat'
-import ImageUpload from './testFoto/test'
+
 
 const Routers = () => {
     return (
@@ -9,7 +10,7 @@ const Routers = () => {
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/secretochat' element={<SecretoChat />}></Route>
-                <Route path='/a' element={<ImageUpload />}></Route>
+                <Route path='*' element={<NotFound />}></Route>
             </Routes>
         </BrowserRouter>
     )
