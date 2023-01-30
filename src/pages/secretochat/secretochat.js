@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import axios from "axios";
+import moment from "moment/moment";
 import { useState, useEffect } from "react";
 import "./secreto.css";
 
@@ -7,17 +8,22 @@ const SecretoChat = () => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
+  const [times, setTime] = useState("");
 
   const saveMessage = async (e) => {
     e.preventDefault();
+
     try {
       await axios.post(
         "https://data.mongodb-api.com/app/data-drebe/endpoint/addMessage",
         {
           name,
           message,
+          times,
         }
       );
+      setTime(moment().format("LLL"));
+
       setName("Anonymous");
       setMessage("");
       getMessage();
@@ -76,13 +82,23 @@ const SecretoChat = () => {
             {messages.map((mess) => {
               return (
                 <div className="row">
-                  <div className="col d-flex border-bottom pt-3">
+                  <div className="col d-flex border-bottom pt-3 pb-2">
                     <div className="photo">
                       <div className="profile" />
                     </div>
                     <div className="message ms-2">
                       <h5 className="opacity-50">Anonymous</h5>
                       <p>{mess.message}</p>
+                      <div
+                        className="time"
+                        style={{
+                          fontSize: "15px",
+                          opacity: "0.4",
+                          marginTop: "-10px",
+                        }}
+                      >
+                        <p style={{ color: "red" }}>{mess.times}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
