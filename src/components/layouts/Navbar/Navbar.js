@@ -15,7 +15,7 @@ const Navigation = () => {
       <Nav.Link href="#project">
         <i class="bi bi-journal-code"></i> Project
       </Nav.Link>
-      <Nav.Link href="/secretochat">
+      <Nav.Link href="/message">
         <button className="btn btn-primary btn-md">
           Give Me Message <i class="bi bi-arrow-right-short"></i>
         </button>
