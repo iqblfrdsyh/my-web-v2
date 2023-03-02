@@ -9,7 +9,7 @@ const Routers = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home />}></Route>
-                <Route path='/secretochat' element={<SecretoChat />}></Route>
+                <Route path='/message' element={<SecretoChat />}></Route>
                 <Route path='*' element={<NotFound />}></Route>
             </Routes>
         </BrowserRouter>
