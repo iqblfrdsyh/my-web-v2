@@ -17,7 +17,7 @@ const Footers = () => {
                     <div class="col-md-3 offset-1">
                         <ul class="d-flex list-unstyled">
                             <li>
-                                <a href="https://wa.me/6289671542333?"><i class="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/6288971755075?"><i class="bi bi-whatsapp"></i></a>
                             </li>
                             <li>
                                 <a href="https://instagram.com/iqblfrdsyh?utm_medium=copy_link"><i

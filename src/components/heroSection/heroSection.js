@@ -28,7 +28,7 @@ const HeroSection = () => {
                         <p class="mt-4">
                             Hi my name is M Iqbal Ferdiansyah I'm still in 11th grade.
                         </p>
-                        <a href="https://wa.me/6289671542333?"><button type="button" class="btn mt-3">
+                        <a href="https://wa.me/6288971755075?"><button type="button" class="btn mt-3">
                             Contact Me <i class="uil uil-message"></i></button></a>
                     </div>
                     <div class="col-md-4 offset-1">
@@ -39,7 +39,7 @@ const HeroSection = () => {
                     <div class="col-md-12">
                         <ul class="justify-content-center fw-bold">
                             <li>
-                                <a href="https://wa.me/6289671542333?"><i class="bi bi-whatsapp text-success"></i></a>
+                                <a href="https://wa.me/6288971755075?"><i class="bi bi-whatsapp text-success"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.github.com/iqblfrdsyh"><i class="bi bi-github text-dark"></i></a>
